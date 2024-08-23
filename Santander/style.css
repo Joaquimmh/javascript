@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    
+}
+
+li, a, button {
+    font-family: santander headline;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+img#logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+ul#nav_links{
+    list-style: none;
+}
+
+ul#nav_links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+ul#nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+ul#nav_links li a:hover {
+    color: rgb(180, 180, 180);
+}
+
+
+
+button {
+    color: rgb(255, 255, 255);
+    padding: 9px 25px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-family: montserrat;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(175, 0, 0);
+
+}

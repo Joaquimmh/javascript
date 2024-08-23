@@ -1,0 +1,29 @@
+body {
+    background-color: #177bec;
+    font: normal 15pt Raleway;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px hwb(0 0% 100% / 0.356);
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-style: italic;
+}
